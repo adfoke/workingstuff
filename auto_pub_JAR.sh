@@ -1,4 +1,7 @@
 #!/bin/bash
+
+#source /etc/profile     add into the file only if you got some error like “nohup: failed to run command java: No such file or directory ”
+
 BAK_DIR=/home/backup
 DATE=`date +%Y%m%d%H%M`
 RMDATE="5"
